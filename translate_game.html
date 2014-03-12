@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+   COLLABORATORS:
+   Spoke with Ebenezer Sefah, Calvin Li and Danny Sanchez
+   
+ -->
+ <html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Ready, Set, Translate !</title>
+  <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+  <link type="text/css" href="translate_game.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
+  <script type="text/javascript" src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+  <script type="text/javascript" src="dicts.json"></script>
+  <script type="text/javascript" src="translate_game.js"></script>
+
+</head>
+<body>
+  <h1>Translate from <span id="languageFrom" class="language"></span> to <span id="languageTo" class="language"></span></h1>
+  <table id="results">
+
+    <tr class="currentWord">
+      <td><span id="word"></span></td>
+      <td><input id="guess"></td>
+      <td><button id ="answerButton">See Answer</button></td>
+    </tr>
+
+  </table>
+
+</body>
+</html>
